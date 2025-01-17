@@ -2,7 +2,7 @@ package structural;
 
 // Лист (файл)
 class File implements FileSystemComponent {
-    private String name;
+    private final String name;
 
     public File(String name) {
         this.name = name;
