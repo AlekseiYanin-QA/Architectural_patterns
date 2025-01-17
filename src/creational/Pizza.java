@@ -20,6 +20,9 @@ class Pizza {
 
     @Override
     public String toString() {
-        return "Pizza with " + dough + " dough, " + sauce + " sauce, and " + topping + " topping.";
+        return "Pizza with "
+                + dough + " dough, "
+                + sauce + " sauce, and "
+                + topping + " topping.";
     }
 }
